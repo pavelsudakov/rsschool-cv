@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth; 
+  }
+a {
+    text-decoration: none;
+    transition: color 0.5s;
+    color: #698d9d;
+}
+a:hover {
+    color: #466675;
+}
+header, footer {
+    font-family: 'Cantarell', sans-serif;
+    background-color: #698d9d;
+    font-size: 15px;
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px;
+}
+footer a {
+    color: #ffffff;
+    transition: color 0.5s;
+  }
+body {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+h1, h2 {
+    font-family: 'Cantarell', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #698d9d;
+}
+ul {
+    list-style-type: circle;
+}
+h1 {
+    text-align: center;
+    margin: 0;
+}
+  .container {
+    max-width: 1440px;
+    width: 50%;
+  }
+  @media (max-width: 768px) {
+    .container {
+      width: 100%;
+    }
+    .photo {
+        width: 100%;
+    }
+    div.name {
+        width: 100%;
+    }
+  }
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin-right: 40px;
+  }
+  .nav-link {
+    padding: 0 16px;
+    line-height: 50px;
+    transition: .3s;
+  }
+  .nav-item a {
+    color: #ffffff;
+    transition: color 0.5s;
+  }
+  .nav-item a:hover {
+    color: #466675;
+  }
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 0 auto;
+  }
+  #profile {
+      width: 100%;
+      margin: 0 auto;
+      border-bottom: 15px solid #466675;
+  }
+  .main-photo {
+      border-radius: 50%;
+      height: 180px;
+      width: 180px;
+      margin-right: 50%;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      float: right;
+
+  }
+  div.name {
+      width: 50%;
+      float: right;
+      margin: auto auto;
+  }
+  .hr-small {
+      width: 30%;
+  }
+  .hr-large {
+    width: 95%;
+}
+  .profession {
+      margin-top: 10px;
+      text-align: center;
+      font-family: 'Cantarell', sans-serif;
+    text-transform: uppercase;
+  }
+  .box {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 -10px;
+  }
+  .container-text {
+      margin-left: 20px;
+      margin-bottom: 10px;
+  }
+  .container-profile {
+      display: flex;
+  }
+  .photo {
+      width: 50%;
+}

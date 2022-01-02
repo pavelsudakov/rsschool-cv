@@ -18,9 +18,9 @@ Since studying at the university, I have been interested in programming. Current
 * HTML, CSS
 * JavaScript Basics
 * Git, Github
-* Figma, Photoshop    
- 
---------------------------------
+* Figma, Photoshop     
+   
+-------------------------------------------------
 ### Code Example:   
 --------------------------------
 **Nickname Generator KATA from CODEWARS:**   
